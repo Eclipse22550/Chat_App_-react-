@@ -1,0 +1,29 @@
+:root {
+    --mn: #3b5583;
+}
+
+#logout {
+    width: 100%;
+    height: 100%;
+    background-color: var(--mn);
+}
+
+#logout .btn-logout-out {
+    width: 50px;
+    margin-left: 10px;
+    outline: none;
+    align-items: center;
+    background-color: var(--colore);
+    border: 2px solid;
+    border-color: var(--log-bord);
+    height: 55px;
+    border-radius: 40%;
+}
+
+#logout .btn-logout-out .out_out_outing {
+    width: 95%;
+    height: 75%;
+    margin: 2.5%;
+    position: relative;
+    align-items: center;
+}

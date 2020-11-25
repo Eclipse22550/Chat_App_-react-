@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+:root {
+    --bord: transparent;
+    --colore: rgb(53, 53, 53);
+    --circle1: #7FFFD4;
+    --circle1_1: #ff0000;
+    --circle2: #FFA500;
+    --circle2_2: #ffff00;
+    --circle3: #DC143C;
+    --circle3_3: #008000;
+    --te: #FFFFFF;
+    --search: #2F3640;
+    --sub: #4669E1;
+    --b: #C0C0C0;
+    --dopo: white;
+    --exit: transparent;
+    --exbord: #ff0000;
+    --t: #fff;
+    --name: #fff;
+    --bfn: #3498DB;
+    --bunt: #00FF5C;
+    --bcb: transparent;
+    --ttn: transparent;
+}
+
+.infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colore);
+    border-radius: 15px 15px 0 0;
+    position: right;
+    border-bottom: 1.5px solid var(--bord);
+    float: right;
+    height: 100%;
+    width: 100%;
+}

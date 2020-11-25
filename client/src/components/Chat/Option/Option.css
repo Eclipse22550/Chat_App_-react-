@@ -1,0 +1,105 @@
+:root {
+    --background: #142996;
+    --bo: #000;
+    --deletebord: #ff0000;
+    --delete: transparent;
+}
+
+#Option {
+    background-color: var(--background);
+    width: 100%;
+    border-right: 2px solid;
+    border-color: var(--bo);
+    height: 100%;
+}
+
+.delete {
+    width: 15%;
+    height: 100%;
+    background-color: var(--delete);
+    border-radius: 25px;
+    position: relative;
+    float: right;
+    margin-right: 2%;
+    border: none;
+    outline: none;
+}
+
+.delete .del {
+    width: 70%;
+    height: 85%;
+    margin: 0.5%;
+    align-items: center;
+    position: relative;
+}
+
+.add-user {
+    width: 15%;
+    height: 100%;
+    background-color: var(--delete);
+    border-radius: 25px;
+    position: relative;
+    float: left;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+}
+
+.add {
+    width: 70%;
+    height: 85%;
+    margin-left: 1%;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-height: 760px) {
+    #Option {
+        background-color: var(--background);
+        width: 100%;
+        border-top: 1px solid;
+        border-right: 2px solid;
+        border-color: var(--bo);
+        height: 100%;
+    }
+    
+    .delete {
+        width: 15%;
+        height: 100%;
+        background-color: var(--delete);
+        border-radius: 25px;
+        position: relative;
+        float: right;
+        margin-right: 2.5%;
+        border: none;
+        outline: none;
+    }
+    
+    .delete .del {
+        width: 70%;
+        height: 60%;
+        margin: 1%;
+        align-items: center;
+        position: relative;
+    }
+    
+    .add-user {
+        width: 15%;
+        height: 100%;
+        background-color: var(--delete);
+        border-radius: 25px;
+        position: relative;
+        float: left;
+        margin-left: 2.5%;
+        border: none;
+        outline: none;
+    }
+    
+    .add {
+        width: 70%;
+        height: 60%;
+        margin-left: 1%;
+        align-items: center;
+        position: relative;
+    }
+}

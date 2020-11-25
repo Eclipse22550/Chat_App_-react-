@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Roboto";
+	outline: none;
+	border: none;
+}
+
+html, body {
+	height: 100%;
+	background: #0A0A0A;
+}
+
+.Frequently {
+    background: white;
+    height: 400px;
+    text-overflow: none;
+    width: auto;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 23px;
+    overflow: auto;
+    margin-top: auto !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.lienup {
+    height: 3px;
+    width: auto;
+    border-radius: 3px;
+    background: whitesmoke;
+}
+
+.activeContainer {
+    color: black;
+    margin-left: 40px;
+}
+
+.activeItem {
+    justify-content: space-between;
+    display: block;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.online {
+    margin-left: 50px;
+    align-items: center;
+    overflow: auto;
+    flex: auto;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 2px;
+}

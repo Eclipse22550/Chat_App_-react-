@@ -1,0 +1,132 @@
+#Personalize-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary);
+}
+
+#Personalite-inner {
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--back);
+  box-shadow: 35px 45px 60px var(--sha);
+  border-radius: 15px;
+  height: 40%;
+  width: 30%;
+}
+
+#Personalite-inner #top-personalize {
+  width: 100%;
+  height: 80%;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 15px 15px 0 0;
+}
+
+#Personalite-inner #left-bottom-personalize {
+  width: 60%;
+  height: 20%;
+  background-color: transparent;
+  float: left;
+  border-radius: 0 0 0 15px;
+}
+
+#Personalite-inner #left-bottom-personalize .checkbox-h {
+	height: 40px;
+	display: flex;
+	display: inline-block;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 2%;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+#Personalite-inner #left-bottom-personalize .checkbox-h input {
+	position: relative;
+  opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+#Personalite-inner #left-bottom-personalize .checkbox-h span {
+	display: flex;
+	align-items: center;
+	color: var(--check);
+	background-color: none;
+	font-size: 16px;
+	user-select: none;
+}
+
+#Personalite-inner #left-bottom-personalize .checkbox-h span::before {
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 6px;
+	margin-right: 16px;
+	background-color: var(--checkbef);
+}
+
+#Personalite-inner #left-bottom-personalize .checkbox-h:hover input ~ span:before {
+	background-color: var(--before);
+}
+
+#Personalite-inner #left-bottom-personalize .checkbox-h input:checked ~ span:before {
+	background-image: url(../../../icons/checkedIcon.png);
+	background-size: cover;
+}
+
+#Personalite-inner #right-bottom-personalize {
+  width: 40%;
+  height: 20%;
+  border-radius: 0 0 15px 0;
+  background-color: transparent;
+  float: right;
+  position: relative;
+}
+
+#Personalite-inner #right-bottom-personalize .btn-null {
+  width: 50px;
+  height: 40px;
+  margin-top: 8%;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', 
+               Tahoma, 
+               Geneva, 
+               Verdana, 
+               sans-serif;
+  text-decoration: unset;
+  background-color: transparent;
+  border: 1.5px solid var(--ombra);
+  display: inline-block;
+  cursor: pointer;
+}
+
+#Personalite-inner #right-bottom-personalize .btn-null:hover {
+  background-color: var(--ombra);
+}
+
+#Personalite-inner #right-bottom-personalize .btn-ended {
+  width: 50px;
+  height: 40px;
+  margin-top: 8%;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', 
+               Tahoma, 
+               Geneva, 
+               Verdana, 
+               sans-serif;
+  text-decoration: unset;
+  background-color: transparent;
+  border: 1.5px solid var(--bordinvia);
+  cursor: pointer;
+}
+
+#Personalite-inner #right-bottom-personalize .btn-ended:hover {
+  background-color: var(--bordinvia);
+}

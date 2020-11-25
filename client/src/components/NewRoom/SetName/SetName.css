@@ -1,0 +1,293 @@
+@import "../../variables.css";
+
+#SetName-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary);
+}
+
+#SetName-inner {
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--back);
+    box-shadow: 35px 45px 60px var(--sha);
+    border-radius: 15px;
+    height: 40%;
+    width: 30%;
+}
+
+#SetName-inner #SetName-top-left {
+    width: 50%;
+    height: 30%;
+    background-color: var(--transparent);
+    float: left;
+    position: relative;
+    border-color: var(--black);
+    border-radius: 15px 0 0 0;
+}
+
+#SetName-inner #SetName-middle {
+	width: 100%;
+    height: 60%;
+    background-color: var(--transparent);
+    float: left;
+    position: relative;
+    border-color: var(--black);
+}
+
+#SetName-inner #SetName-bottom {
+	width: 100%;
+    height: 16.5%;
+    background-color: var(--transparent);
+    float: left;
+	position: relative;
+	border-radius: 0 0 15px 15px;
+    border-color: var(--black);
+}
+
+#SetName-inner #SetName-bottom #left-bottom-setName {
+	width: 60%;
+    height: 100%;
+    background-color: var(--transparent);
+    float: left;
+	position: relative;
+	border-radius: 0 0 0 15px;
+    border-color: var(--black);
+}
+
+.checkbox_setname {
+	height: 40px;
+	display: flex;
+	margin-left: 10%;
+	display: inline-block;
+	border-radius: 50%;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.checkbox_setname input {
+	position: relative;
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+.checkbox_setname span {
+	display: flex;
+	align-items: center;
+	color: var(--white);
+	font-size: 1.1rem;
+	font-weight: bold;
+	font-family: 'Courier New', 
+				 Courier, 
+				 monospace;
+	background-color: none;
+	user-select: none;
+}
+
+.btn-return {
+	border: 1.5px solid var(--ombra);
+	background-color: transparent;
+	cursor: pointer;
+	height: 70%;
+	font-size: 1.1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--black);
+	font-weight: initial;
+	width: 40%;
+	transition: 0.25s;
+	border-radius: 15px;
+}
+
+.btn-return:hover {
+	background-color: var(--blueed);
+	border: 1.5px solid var(--ombra);
+	width: 40%;
+	height: 70%;
+}
+
+.btn-procede {
+	border: 1.5px solid var(--bordinvia);
+	background-color: transparent;
+	cursor: pointer;
+	height: 70%;
+	font-size: 1.1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--black);
+	font-weight: initial;
+	width: 40%;
+	transition: 0.25s;
+	border-radius: 15px;
+}
+
+.btn-procede:hover {
+	border: 1.5px solid var(--bordinvia);
+	background-color: var(--blueed);
+	width: 40%;
+	height: 70%;
+}
+
+.checkbox_setname span::before {
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 6px;
+	margin-right: 16px;
+	background-color: var(--checkbef);
+}
+
+.checkbox_setname:hover input ~ span:before {
+	background-color: var(--before);
+}
+
+.checkbox_setname input:checked ~ span:before {
+	background-image: url(../../../icons/checkedIcon.png);
+	background-size: cover;
+}
+
+#SetName-inner #SetName-bottom #right-bottom-setName {
+	width: 40%;
+    height: 100%;
+    background-color: var(--transparent);
+    float: right;
+	position: relative;
+	border-radius: 0 0 15px 0;
+    border-color: var(--black);
+}
+
+#SetName-inner #SetName-top-left .name_room {
+	border: 0;
+	background: none;
+	display: block;
+	font-size: 14px;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid;
+	border-color: var(--ombra);
+	padding: 14px 10px;
+	width: 80%;
+	font-weight: bold;
+	outline: none;
+	color: var(--black);
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.input_inputf_input img {
+	width: 25px;
+	position: absolute;
+    margin-top: -55px;
+	margin-left: 7.5px;
+}
+
+#SetName-inner #SetName-top-left .name_room::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;
+}
+
+#SetName-inner #SetName-middle .description_room {
+	border: 0;
+	background: none;
+	display: block;
+	font-size: 14px;
+	margin: 20px auto;
+	text-align: center;
+    border: 2px solid;
+    text-decoration: none;
+	border-color: var(--inputr);
+	padding: 14px 10px;
+	width: 90%;
+	font-weight: bold;
+	outline: none;
+	color: var(--black);
+	border-radius: 5px;
+	transition: 0.25s;
+	height: 150px;
+	resize: none;
+}
+
+#SetName-inner #SetName-middle .description_room::-webkit-input-placeholder {
+    font-size: 1.3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;
+}
+
+#SetName-inner #SetName-top-right {
+    width: 50%;
+    height: 80%;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    border-radius: 0 15px 0 0;
+}
+
+#SetName-inner #SetName-top-right .user_1 {
+	border: 0;
+	background: none;
+	display: block;
+	font-size: 14px;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid;
+	border-color: var(--bordinvia);
+	padding: 14px 10px;
+    width: 80%;
+	font-weight: bold;
+	outline: none;
+	color: var(--black);
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.input_inputfg_input img {
+	width: 25px;
+	position: absolute;
+    margin-top: -55px;
+    margin-left: 5px;
+	left: 35px;
+}
+
+#SetName-inner #SetName-top-right .user_1::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;
+}
+
+#SetName-inner #SetName-top-right .user_admin {
+	border: 0;
+	background: none;
+	display: block;
+	font-size: 14px;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid;
+	border-color: var(--ombra);
+	padding: 14px 10px;
+	width: 80%;
+	font-weight: bold;
+	outline: none;
+	color: var(--black);
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.input_inputf_input img {
+	width: 25px;
+	position: absolute;
+    margin-top: -55px;
+	left: 35px;
+}
+
+#SetName-inner #SetName-top-right .user_admin::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;
+}

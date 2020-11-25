@@ -1,0 +1,91 @@
+/* Variabili di colore */
+:root {
+  --primary: linear-gradient(to right, #00CEB1, #344698, #142996, #3b5583);
+  --sha: #363636;
+  --back: #5f9ea0;
+  --top: #353535;
+  --left: #142996;
+  --mn: #3b5583;
+  --b: #000;
+  --c: #344698;
+  --n: #3b5583;
+  --box: #3b5583;
+}
+
+/*Modalità computer */
+#out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary);
+}
+
+#Settings {
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--back);
+  box-shadow: 35px 45px 60px var(--sha);
+  border-radius: 15px;
+  height: 80%;
+  width: 70%;
+}
+
+#Settings #topbar {
+  background-color: var(--top);
+  width: 100%;
+  float: left;
+  border-radius: 15px 15px 0 0;
+  height: 8%; 
+}
+
+#Settings #menu {
+  background-color: #3b5583;
+  width: 100%;
+  float: left;
+  height: 92%;
+  border-radius: 0 0 15px 15px;
+}
+
+@media screen and (max-height: 760px) {
+  #out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary);
+  }
+
+  #Settings {
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--back);
+    box-shadow: 35px 45px 60px var(--sha);
+    border-radius: 15px;
+    height: 90%;
+    width: 92.5%;
+  }
+
+  #Settings #topbar {
+    background-color: var(--top);
+    width: 100%;
+    float: left;
+    border-radius: 15px 15px 0 0;
+    height: 8%; 
+  }
+  
+  #Settings #menu {
+    background-color: #3b5583;
+    width: 100%;
+    float: left;
+    height: 92%;
+    border-radius: 0 0 15px 15px;
+  }
+
+  #Settings #top {
+    background-color: var(--top);
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 8%;
+  }
+}

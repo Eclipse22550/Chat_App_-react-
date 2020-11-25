@@ -1,0 +1,280 @@
+* {	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: sans-serif;
+	background: var(--primary);
+	padding: 0;
+	margin: 0;
+}
+  
+#root {	
+	height: 100vh;
+}
+
+:root {
+	--primary: linear-gradient(to right, #00CEB1, #344698, #142996);
+	--ombra: #B22922;
+	--forget: #ffa500;
+	--invia: #2ECC71;
+	--passwordforgot: yellow;
+	--uovo: #00CEB1;
+ 	--bordinvia: #2ECC71;
+	--schead: #00FF5C;
+	--check: rgb(110,110,110);
+	--bordo: blue;
+	--text: #FFFFFF;
+	--checkbef: gray;
+	--before: rgb(50,50,50);
+	--ov: #1C1C1C;
+	--intback: transparent;
+	--head: rgb(140,140,140);
+	--input: #649d58;
+	--internal: #6495ED;
+}
+
+#Richting {
+    width: 100%;
+    height: 100%;
+    background-color: #3e51af;
+}
+
+#Richting #text-camp {
+    width: 100%;
+    height: 15%;
+    background-color: #3b5583;
+}
+
+#Richting #inputs_inputs_inputs {
+	width: 100%;
+	height: 60%;
+	background-color: transparent;
+}
+
+#Richting #inputs_inputs_inputs #campi {
+	width: 40%;
+	height: 17.5%;
+	margin-left: 6%;
+	margin-top: 6%;
+	position: relative;
+	display: inline-block;
+	background-color: transparent;
+}
+
+#Richting #inputs_inputs_inputs #camps {
+	width: 40%;
+	height: 17.5%;
+	margin-left: 6%;
+	margin-top: 6%;
+	position: relative;
+	display: inline-block;
+	background-color: transparent;
+}
+
+#Richting #inputs_inputs_inputs #camps .password {
+	width: 80%;
+	display: inline-block;
+	transition: 0.25s;
+	outline: none;
+	border: 1.5px solid #1c1c1c;
+	font-size: 1rem;
+	color: #000;
+	font-weight: normal;
+	border-right: none;
+	background-color: transparent;
+	text-align: center;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	height: 100%;
+}
+
+#Richting #inputs_inputs_inputs #camps .password:focus {
+	background-color: var(--bordinvia);
+	border-color: #1c1c1c;
+}
+
+#Richting #inputs_inputs_inputs #camps .show-pass {
+	width: 20%;
+	height: 100%;
+	border: 1.5px solid #1c1c1c;
+	outline: none;
+	font-size: 1rem;
+	color: #000;
+	font-weight: normal;
+	border-top-right-radius: 30px;
+	background-color: transparent;
+	border-bottom-right-radius: 30px;
+	border-left: none;
+}
+
+#Richting #inputs_inputs_inputs #camps .show-pass:focus {
+	background-color: var(--bordinvia);
+	border-color: #1c1c1c;
+}
+
+#Richting #inputs_inputs_inputs #camps .password::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #camps .sk {
+	width: 100%;
+	display: inline-block;
+	transition: 0.25s;
+	outline: none;
+	font-size: 1rem;
+	color: #000;
+	font-weight: normal;
+	border: 1.5px solid var(--ombra);
+	background-color: transparent;
+	text-align: center;
+	border-radius: 30px;
+	height: 100%;
+}
+
+#Richting #inputs_inputs_inputs #camps .sk:focus,.show-sk:focus {
+	background-color: var(--ombra);
+}
+
+#Richting #inputs_inputs_inputs #camps .sk::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .country::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .email,.emails,.username,.country,.phone,.sd {
+	width: 100%;
+	display: block;
+	transition: 0.25s;
+	outline: none;
+	font-size: 1rem;
+	color: #000;
+	font-weight: normal;
+	border: 1.5px solid #1c1c1c;
+	background-color: transparent;
+	text-align: center;
+	border-radius: 30px;
+	height: 100%;
+}
+
+#Richting #inputs_inputs_inputs #campi .sd:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .phone:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .country:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .email:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .emails:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .username:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .password:focus {
+	background-color: var(--bordinvia);
+}
+
+#Richting #inputs_inputs_inputs #campi .email::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .phone::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .sd::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .emails::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .username::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs #campi .password {
+	width: 80%;
+	display: block;
+	height: 100%;
+}
+
+#Richting #inputs_inputs_inputs #campi .sk::-webkit-input-placeholder {
+	font-size: 0.9rem;
+	color: #fff;
+	font-weight: bolder;
+	font-style: initial;
+}
+
+#Richting #inputs_inputs_inputs .btn-proc {
+	border: 0;
+	background: none;
+	display: inline-block;
+	margin: 20px auto;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid;
+	border-color: var(--internal);
+	padding: 14px 40px;
+	font-size: 1rem;
+	width: 200px;
+	outline: none;
+	color: var(--text);
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+#Richting #inputs_inputs_inputs .btn-proc i {
+	display: inline-block;
+	margin-left: 6%;
+}
+
+#Richting #inputs_inputs_inputs .btn-proc:hover {
+	background: var(--internal);
+}
+
+#Richting #inputs_inputs_inputs .btn-proc:focus {
+	outline: 0;
+	width: 250px;
+}

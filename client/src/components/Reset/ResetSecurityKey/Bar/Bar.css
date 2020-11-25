@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+:root {
+  --bord: transparent;
+  --colore: rgb(53,53,53);
+  --circle1: #7FFFD4;
+  --circle1_1: #ff0000;
+  --circle2: #FFA500;
+  --circle2_2: #ffff00;
+  --circle3: #DC143C;
+  --circle3_3: #008000;
+  --name: #fff;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--colore);
+  border-radius: 15px 15px 0 0;
+  position: right;
+  border-bottom: 1.5px solid var(--bord);
+  float: right;
+  height: 100%;
+  width: 100%;
+}
+
+.leftContainer_leftContainer_left {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  color: white;
+}
+
+.circle1_1_1 {
+  width: 12px;
+  height: 12px;
+  margin-right: 2.5%;
+  border-radius: 50%;
+  background-color: var(--circle1);
+}
+
+.circle1_1_1:hover {
+  background-color: var(--circle1_1);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.circle2_2_2 {
+  width: 12px;
+  height: 12px;
+  margin-right: 2.5%;
+  border-radius: 50%;
+  background-color: var(--circle2);
+}
+
+.circle2_2_2:hover {
+  background-color: var(--circle2_2);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.circle3_3_3 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--circle3);
+}
+
+.circle3_3_3:hover {
+  background-color: var(--circle3_3);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+#center_center_centrum {
+  width: 40%;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  margin-right: 17.5%;
+}
+
+#center_center_centrum h1 {
+  font-size: 2.1rem;
+  margin-left: 10%;
+  font-feature-settings: unset;
+  font-stretch: unset;
+  font-variant-ligatures: discretionary-ligatures;
+  font-kerning: unset;
+  font-variant-east-asian: unset;
+  letter-spacing: 0.3rem;
+  font-variant: small-caps;
+  color: var(--name);
+  font-weight: bold;
+  font-style: italic;
+  font-family: -apple-system, 
+               BlinkMacSystemFont, 
+               'Segoe UI', 
+               Roboto,
+               Oxygen, 
+               Ubuntu, 
+               Cantarell, 
+               'Open Sans', 
+               'Helvetica Neue', 
+               sans-serif;
+}
+
+.rightContainer_rightContainer_right {
+  width: 5%;
+  height: 80%;
+  margin-right: 4%;
+  background-color: var(--rightContainer);
+  border-radius: 25px;
+  border: none;
+}
+
+.rightContainer_rightContainer_right #logout_logout_logout {
+  width: 99.99%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: var(--transparent);
+}
+
+.rightContainer_rightContainer_right #logout_logout_logout .log_log_log {
+  width: 99.99%;
+  outline: none;
+  align-items: center;
+  background-color: var(--colore);
+  border: 2px solid;
+  border-color: var(--log-bord);
+  height: 100%;
+  border-radius: 30px;
+}
+
+.rightContainer_rightContainer_right #logout_logout_logout .log_log_log .out_out_out {
+  width: 80%;
+  height: 60%;
+  margin: 2.5%;
+  position: relative;
+  align-items: center;
+}
+
+@media screen and (max-height: 660px) {
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--colore);
+    border-radius: 15px 15px 0 0;
+    position: right;
+    border-bottom: 1.5px solid var(--bord);
+    float: right;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .leftContainer_leftContainer_left {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    color: white;
+  }
+
+  .circle1_1_1 {
+    width: 10px;
+    height: 10px;
+    margin-right: 10%;
+    border-radius: 50%;
+    background-color: var(--circle1);
+  }
+  
+  .circle1_1_1:hover {
+    background-color: var(--circle1_1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .circle2_2_2 {
+    width: 10px;
+    height: 10px;
+    margin-right: 7.5%;
+    border-radius: 50%;
+    background-color: var(--circle2);
+  }
+  
+  .circle2_2_2:hover {
+    background-color: var(--circle2_2);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+   
+  .circle3_3_3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--circle3);
+  }
+  
+  .circle3_3_3:hover {
+    background-color: var(--circle3_3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  #center_center_centrum {
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    margin-right: 17.5%;
+  }
+  
+  #center_center_center h1 {
+    font-size: 2.1rem;
+    margin-left: 10%;
+    font-feature-settings: unset;
+    font-stretch: unset;
+    font-variant-ligatures: discretionary-ligatures;
+    font-kerning: unset;
+    font-variant-east-asian: unset;
+    letter-spacing: 0.3rem;
+    font-variant: small-caps;
+    color: var(--name);
+    font-weight: bold;
+    font-style: italic;
+    font-family: -apple-system, 
+                 BlinkMacSystemFont, 
+                 'Segoe UI', 
+                 Roboto,
+                 Oxygen, 
+                 Ubuntu, 
+                 Cantarell, 
+                 'Open Sans', 
+                 'Helvetica Neue', 
+                 sans-serif;
+  }
+  
+  .rightContainer_rightContainer_right {
+    width: 6%;
+    height: 85%;
+    margin-right: 4%;
+    background-color: var(--rightContainer);
+    border-radius: 25px;
+    border: none;
+  }
+  
+  .rightContainer_rightContainer_right #logout_logout_logout {
+    width: 99.99%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: var(--transparent);
+  }
+  
+  .rightContainer_rightContainer_right #logout_logout_logout .log_log_log {
+    width: 99.99%;
+    outline: none;
+    align-items: center;
+    background-color: var(--colore);
+    border: 2px solid;
+    border-color: var(--log-bord);
+    height: 100%;
+    border-radius: 30px;
+  }
+  
+  .rightContainer_rightContainer_right #logout_logout_logout .log_log_log .out_out_out {
+    width: 85%;
+    height: 85%;
+    margin: 3.5%;
+    position: relative;
+    align-items: center;
+  }
+}

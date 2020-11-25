@@ -1,0 +1,101 @@
+/* Variabili di colore */
+
+:root {
+    --primary: linear-gradient(to right, #00CEB1, #344698, #142996, #3b5583);
+    --sha: #363636;
+    --back: #5f9ea0;
+    --top: #353535;
+    --left: #142996;
+    --mn: #3b5583;
+    --b: #000;
+    --c: #344698;
+    --n: #3b5583;
+    --box: #3b5583;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary);
+}
+
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--back);
+    box-shadow: 35px 45px 60px var(--sha);
+    border-radius: 15px;
+    height: 630px;
+    position: absolute;
+    width: 70%;
+}
+
+#top {
+    background-color: var(--top);
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 8%;
+}
+
+#option-top {
+    width: 36%;
+    border-right: 1.5px solid black;
+    height: 7%;
+    float: left;
+    background-color: var(--mn);
+}
+
+#name-chat {
+    width: 64%;
+    float: right;
+    height: 7%;
+    background-color: var(--mn);
+}
+
+#mn {
+    background-color: var(--mn);
+    height: 77.5%;
+    border-right: 2px solid;
+    border-color: var(--b);
+    border-radius: 0 0 0 15px;
+    float: left;
+    width: 36%;
+}
+
+#box {
+    background-color: var(--box);
+    width: 64%;
+    float: left;
+    height: 77.5%;
+}
+
+#box #name {
+    background-color: var(--n);
+    float: left;
+    width: 100%;
+    height: 8%;
+}
+
+#option {
+    background-color: var(--left);
+    width: 29%;
+    height: 7.5%;
+    float: left;
+}
+
+#logout {
+    width: 7%;
+    height: 7.5%;
+    float: left;
+    border-radius: 0 0 0 15px;
+}
+
+#input {
+    background-color: var(--box);
+    width: 64%;
+    border-radius: 0 0 15px 0;
+    height: 7.5%;
+    float: left;
+}

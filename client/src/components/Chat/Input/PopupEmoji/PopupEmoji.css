@@ -1,0 +1,29 @@
+:root {
+    --Popup-inner: #3b5583;
+    --Transparent-popup-vocal: transparent;
+}
+
+#Popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+#Popup-inner-em{
+  position: absolute;
+  width: 22%;
+  height: 20%;
+  margin: auto;
+  top: 25%;
+  left: 27.5%;
+  bottom: 25%;
+  right: 25%;
+  border-radius: 20px;
+  background-color: var(--Popup-inner);
+}

@@ -1,0 +1,127 @@
+/* Variabili di colore */
+:root {
+    --primary: linear-gradient(to right, #00CEB1, #344698, #142996, #3b5583);
+    --sha: #363636;
+    --back: #5f9ea0;
+    --top: #353535;
+    --lefting: #324699;
+    --richting: #3e51af;
+  }
+  
+  /*Modalità computer */
+  #ResetSecurityKey_outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary);
+  }
+  
+  #ResetSecurityKey_inner {
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--back);
+    box-shadow: 35px 45px 60px var(--sha);
+    border-radius: 15px;
+    height: 80%;
+    width: 70%;
+  }
+  
+  #Top {
+    background-color: var(--top);
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 8%;
+  }
+
+  #lefting {
+    width: 49.99%;
+    height: 71.99%;
+    border-bottom: 1px solid black;
+    float: left;
+    background-color: var(--lefting);
+  }
+
+  #righting {
+    width: 50%;
+    height: 71.99%;
+    border-bottom: 1px solid black;
+    float: left;
+    background-color: var(--richting);
+  }
+
+  #botting_lefting {
+    background-color: var(--lefting);
+    width: 50%;
+    height: 20%;
+    float: left;
+    border-radius: 0 0 0 15px;
+  }
+
+  #botting_righting {
+    background-color: var(--richting);
+    width: 50%;
+    height: 20%;
+    float: left;
+    border-radius: 0 0 15px 0;
+  }
+  
+  @media screen and (max-height: 660px) {
+    #ResetSecurityKey_outer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: var(--primary);
+    }
+    
+    #ResetSecurityKey_inner {
+      flex-direction: column;
+      justify-content: space-between;
+      background: var(--back);
+      box-shadow: 35px 45px 60px var(--sha);
+      border-radius: 15px;
+      height: 80%;
+      width: 80%;
+    }
+  
+    #Top {
+      background-color: var(--top);
+      width: 100%;
+      border-radius: 15px 15px 0 0;
+      height: 8%;
+    }
+  
+    #lefting {
+      width: 49.99%;
+      height: 69.99%;
+      border-bottom: 1px solid black;
+      float: left;
+      background-color: var(--lefting);
+    }
+  
+    #righting {
+      width: 50%;
+      height: 69.99%;
+      border-bottom: 1px solid black;
+      float: left;
+      background-color: var(--richting);
+    }
+  
+    #botting_lefting {
+      background-color: var(--lefting);
+      width: 50%;
+      height: 22%;
+      float: left;
+      border-radius: 0 0 0 15px;
+    }
+  
+    #botting_righting {
+      background-color: var(--richting);
+      width: 50%;
+      height: 22%;
+      float: left;
+      border-radius: 0 0 15px 0;
+    }
+  }
+  

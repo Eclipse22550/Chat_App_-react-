@@ -1,0 +1,1188 @@
+:root {
+    --co:#3e51af;
+    --userback: #3e51af;
+    --border: #000;
+    --container: #3b5583;
+    --search: #353535;
+    --due: #000;
+    --bort: #00FF5C;
+    --col: #fff;
+    --btn: transparent;
+    --borf: blue;
+    --bnt: #3498DB;
+    --bb: #484699;
+    --tnt: #484699;
+    --menu-meun: #3b5583;
+}
+
+#ContentProfile {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+    float: left;
+    background-color: transparent;
+}
+
+h187 {
+   color: #fff;
+   font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   align-items: center;
+   margin: 10%;
+   justify-content: center;
+}
+
+#ContentProfile #ConteningProfile {
+    width: 72%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    float: left;
+    background-color: #5f9ea0;
+}
+
+#ContentProfile #ProfileMenu {
+    width: 28%;
+    height: 100%;
+    border-radius: 0 0 0 15px;
+    float: left;
+    border-right: 1.5px solid;
+    border-color: #000;
+    background-color: var(--container);
+}
+
+#ContentProfile #ProfileMenu #searchProfile {
+    background-color: var(--userback);
+    width: 99.99%;
+    height: 15%;
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile {
+    width: 90%;
+    float: left;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    background-color: var(--btn);
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile .b_p {
+    width: 14%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+    border-left: 1.5px solid;
+    border-bottom: 1.5px solid;
+    border-top: 1.5px solid;
+    border-right: none;
+    display: inline-block;
+    background-color: var(--bb);
+    transition: 0.25s;
+    border-color: var(--bort);
+    outline: none;
+    font-weight: normal;
+    font-style: italic;
+    font-family: -apple-system, 
+                 BlinkMacSystemFont, 
+                 'Segoe UI', 
+                 Roboto, 
+                 Oxygen, 
+                 Ubuntu, 
+                 Cantarell, 
+                 'Open Sans', 
+                 'Helvetica Neue', 
+                 sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile .btn_prof {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0 30px 30px 0;
+    border-top: 1.5px solid;
+    border-right: 1.5px solid;
+    border-bottom: 1.5px solid;
+    border-color: var(--bnt);
+    border-left: 0;
+    background-color: var(--tnt);
+    outline: none;
+    font-weight: normal;
+    font-style: italic;
+    font-family: -apple-system, 
+                 BlinkMacSystemFont, 
+                 'Segoe UI', 
+                 Roboto, 
+                 Oxygen, 
+                 Ubuntu, 
+                 Cantarell, 
+                 'Open Sans', 
+                 'Helvetica Neue', 
+                 sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile .b_p:focus {
+    width: 85%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+    border-left: 1.5px solid;
+    border-bottom: 1.5px solid;
+    border-top: 1.5px solid;
+    border-right: none;
+    display: inline-block;
+    background-color: var(--bb);
+    transition: 0.25s;
+    border-color: var(--bort);
+    outline: none;
+    font-weight: normal;
+    font-style: italic;
+    font-family: -apple-system, 
+                 BlinkMacSystemFont, 
+                 'Segoe UI', 
+                 Roboto, 
+                 Oxygen, 
+                 Ubuntu, 
+                 Cantarell, 
+                 'Open Sans', 
+                 'Helvetica Neue', 
+                 sans-serif;
+    text-align: center;
+    font-size: 0.99rem;
+    color: palegoldenrod; 
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile .b_p::-webkit-input-placeholder {
+    color: #f5f5f5;
+    font-size: 1rem;
+    font-weight: inherit;
+    font-family: Arial, 
+                 Helvetica, 
+                 sans-serif;
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile .b_p:hover {
+    border-color: orangered;
+}
+
+#ContentProfile #ProfileMenu #searchProfile .barProfile .btn_prof:hover {
+    border-color: orangered; 
+}
+
+#ContentProfile #ProfileMenu #MenuProfile {
+    width: 100%;
+    height: auto;
+    background-color: #3b5583;  
+}
+
+.active {
+    background-color: #4D4D4D;
+    border-left: 4px solid white; 
+    color: white;
+}
+
+#ContentProfile #ProfileMenu #MenuProfile #Menu_menu_profile {
+    width: 99.99%;
+    height: 77.5%;
+    background-color: #3b5583; 
+}
+
+#ContentProfile #ProfileMenu #MenuProfile #Menu_menu_profile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 99.99%;
+    height: auto !important;
+    background-color: var(--transparent);  
+}
+
+li {
+    border-bottom: 1.5px dotted black;
+    width: 99.99%;
+    height: 15%;
+}
+
+li .nav-link {
+    display: block;
+    color: #000;
+    height: 65px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 8px 2px;
+    text-decoration: none; 
+}
+
+li:hover {
+    background-color: var(--select);
+    color: white;
+}
+
+#menu-mnmm:focus {
+    background-color: #4D4D4D;
+    color: white;
+    border-left: 4px solid white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li .nav-link {
+  display: block;
+  color: #000;
+  height: 65px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+  padding: 8px 2px;
+  text-decoration: none;
+}
+
+.visualizing {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    float: left;
+    background-color: transparent;
+}
+
+#access_credential {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent; 
+}
+
+#access_credential #title-sec-access {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#access_credential #title-sec-access h160 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+#access_credential  #a-content {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto !important;
+    background-color: transparent;
+}
+
+#access_credential  #a-content #ac-content {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+#access_credential  #a-content h200 {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: normal;
+    text-align: center;
+}
+
+#access_credential  #a-content #ac-content #bio-left {
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    height: 100%;
+    width: 35%;
+    background-color: transparent;
+    border-right: 0;
+}
+
+#access_credential  #a-content #ac-content #bio-left .bio-label {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: normal;
+}
+
+#access_credential  #a-content #ac-content #bio-left .bio {
+    width: 95%;
+    outline: none;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    color: #000;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+#access_credential  #a-content #ac-content #bio-left .bio::-webkit-input-placeholder {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+}
+
+#access_credential  #a-content #ac-content #bio-left .btn-ok {
+    width: 20%;
+    height: 30px;
+    margin-bottom: 4%;
+    margin-left: 75%;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    background-color: transparent;
+    border: 1.25px solid #00FF5C;
+}
+
+#access_credential  #a-content #ac-content #bio-left .btn-ok:hover {
+    background-color: #00FF5C;
+}
+
+#access_credential  #a-content #ac-content #cred-right {
+    height: 100%;
+}
+
+#security_key {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent;  
+}
+
+#security_key #title-sec-sk {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#security_key #title-sec-sk h161 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#security_key #sk-content {
+    width: 90%;
+    margin: 10%;
+    height: auto !important;
+    background-color: transparent;
+}
+
+#image_profile {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent;  
+}
+
+#image_profile #title-sec-imp {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#image_profile #title-sec-imp h162 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#image_profile #imp-content {
+    width: 100%;
+    float: left;
+    border-radius: 0 0 15px 0;
+    height: 92.5%;
+    background-color: transparent; 
+}
+
+#room_user {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent;  
+}
+
+#room_user #title-sec-ru {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#room_user #title-sec-ru h163 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#room_user #ru-content {
+    width: 100%;
+    float: left;
+    border-radius: 0 0 15px 0;
+    height: 92.5%;
+    background-color: transparent; 
+}
+
+#room_user #ru-content #table-roomen {
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    background-color: transparent;
+}
+
+#room_user #ru-content #table-roomen #btn-option-room {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1.5%;
+    background-color: transparent;
+}
+
+#room_user #ru-content #table-roomen #btn-option-room .btn-new-room {
+    width: 20%;
+    height: 15%;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1.5px solid;
+    font-style: oblique;
+    outline: none;
+    border-color: var(--menu-meun);
+    margin-left: 75%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+h190 {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Helvetica;
+}
+
+h191 {
+    font-size: 1.1rem;
+    color: red;
+    font-weight: inherit;
+    text-decoration: underline;
+    font-style: normal;
+    font-family: Helvetica;
+}
+
+h192 {
+    font-size: 1.1rem;
+    color: 	#7fff00;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Helvetica;
+}
+
+h193 {
+    font-size: 1.1rem;
+    color: darkorange;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Helvetica;
+}
+
+h195 {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Helvetica;
+}
+
+#request_friends {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent;  
+}
+
+#request_friends #title-sec-rf {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#request_friends #title-sec-rf h164 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#request_friends #rf-content {
+    width: 100%;
+    float: left;
+    border-radius: 0 0 15px 0;
+    height: 92.5%;
+    margin-top: 2%;
+    background-color: transparent; 
+}
+
+#message_alert {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent;  
+}
+
+#message_alert #title-sec-ma {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#message_alert #title-sec-ma h166 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#message_alert #ma-content {
+    width: 100%;
+    float: left;
+    border-radius: 0 0 15px 0;
+    height: 92.5%;
+    background-color: transparent; 
+}
+
+#privacy {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 0;
+    background-color: transparent;  
+}
+
+#privacy #title-sec-p {
+    width: 100%;
+    height: 7.5%;
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#privacy #title-sec-p h165 {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#privacy #p-content {
+    width: 100%;
+    float: left;
+    border-radius: 0 0 15px 0;
+    height: 92.5%;
+    background-color: transparent; 
+}
+
+@media screen and (max-height: 760px) {
+    #ContentProfile {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 15px;
+        float: left;
+        background-color: transparent;
+    }
+    
+    h187 {
+       color: #fff;
+       font-size: 1rem;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       align-items: center;
+       margin: 10%;
+       justify-content: center;
+    }
+    
+    #ContentProfile #ConteningProfile {
+        width: 72%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        float: left;
+        background-color: #5f9ea0;
+    }
+    
+    #ContentProfile #ProfileMenu {
+        width: 28%;
+        height: 100%;
+        border-radius: 0 0 0 15px;
+        float: left;
+        border-right: 1.5px solid;
+        border-color: #000;
+        background-color: var(--container);
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile {
+        background-color: var(--userback);
+        width: 99.99%;
+        height: 15%;
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile {
+        width: 90%;
+        float: left;
+        border-radius: 30px;
+        position: relative;
+        margin-top: 2.5%;
+        margin-left: 5%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 50%;
+        background-color: var(--btn);
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile .b_p {
+        width: 14%;
+        height: 100%;
+        border-radius: 30px 0 0 30px;
+        border-left: 1.5px solid;
+        border-bottom: 1.5px solid;
+        border-top: 1.5px solid;
+        border-right: none;
+        display: inline-block;
+        background-color: var(--bb);
+        transition: 0.25s;
+        border-color: var(--bort);
+        outline: none;
+        font-weight: normal;
+        font-style: italic;
+        font-family: -apple-system, 
+                     BlinkMacSystemFont, 
+                     'Segoe UI', 
+                     Roboto, 
+                     Oxygen, 
+                     Ubuntu, 
+                     Cantarell, 
+                     'Open Sans', 
+                     'Helvetica Neue', 
+                     sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        color: #000;
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile .btn_prof {
+        width: 15%;
+        height: 100%;
+        position: absolute;
+        border-radius: 0 30px 30px 0;
+        border-top: 1.5px solid;
+        border-right: 1.5px solid;
+        border-bottom: 1.5px solid;
+        border-color: var(--bnt);
+        border-left: 0;
+        background-color: var(--tnt);
+        outline: none;
+        font-weight: normal;
+        font-style: italic;
+        font-family: -apple-system, 
+                     BlinkMacSystemFont, 
+                     'Segoe UI', 
+                     Roboto, 
+                     Oxygen, 
+                     Ubuntu, 
+                     Cantarell, 
+                     'Open Sans', 
+                     'Helvetica Neue', 
+                     sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        color: #000;
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile .b_p:focus {
+        width: 85%;
+        height: 100%;
+        border-radius: 30px 0 0 30px;
+        border-left: 1.5px solid;
+        border-bottom: 1.5px solid;
+        border-top: 1.5px solid;
+        border-right: none;
+        display: inline-block;
+        background-color: var(--bb);
+        transition: 0.25s;
+        border-color: var(--bort);
+        outline: none;
+        font-weight: normal;
+        font-style: italic;
+        font-family: -apple-system, 
+                     BlinkMacSystemFont, 
+                     'Segoe UI', 
+                     Roboto, 
+                     Oxygen, 
+                     Ubuntu, 
+                     Cantarell, 
+                     'Open Sans', 
+                     'Helvetica Neue', 
+                     sans-serif;
+        text-align: center;
+        font-size: 0.99rem;
+        color: palegoldenrod; 
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile .b_p::-webkit-input-placeholder {
+        color: #f5f5f5;
+        font-size: 1rem;
+        font-weight: inherit;
+        font-family: Arial, 
+                     Helvetica, 
+                     sans-serif;
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile .b_p:hover {
+        border-color: orangered;
+    }
+    
+    #ContentProfile #ProfileMenu #searchProfile .barProfile .btn_prof:hover {
+        border-color: orangered; 
+    }
+    
+    #ContentProfile #ProfileMenu #MenuProfile {
+        width: 100%;
+        height: auto;
+        background-color: #3b5583;  
+    }
+    
+    #ContentProfile #ProfileMenu #MenuProfile #Menu_menu_profile .active {
+        background-color: #4D4D4D;
+        color: white;
+    }
+    
+    #ContentProfile #ProfileMenu #MenuProfile #Menu_menu_profile {
+        width: 99.99%;
+        height: 77.5%;
+        background-color: #3b5583; 
+    }
+    
+    #ContentProfile #ProfileMenu #MenuProfile #Menu_menu_profile ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 99.99%;
+        height: auto !important;
+        background-color: var(--transparent);  
+    }
+    
+    li {
+        border-bottom: 1.5px dotted black;
+        width: 99.99%;
+        height: 15%;
+    }
+    
+    li .nav-link {
+        display: block;
+        color: #000;
+        height: 65px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1rem;
+        padding: 8px 2px;
+        text-decoration: none; 
+    }
+    
+    li:hover {
+        background-color: var(--select);
+        color: white;
+    }
+    
+    li .nav-link {
+      display: block;
+      color: #000;
+      height: 65px;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1rem;
+      padding: 8px 2px;
+      text-decoration: none;
+    }
+    
+    .visualizing {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        float: left;
+        background-color: transparent;
+    }
+    
+    #access_credential {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent; 
+    }
+    
+    #access_credential #title-sec-access {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #access_credential #title-sec-access h160 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;  
+    }
+    
+    #access_credential  #a-content {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: auto !important;
+        background-color: transparent;
+    }
+    
+    #access_credential  #a-content #ac-content {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid red;
+    }
+    
+    #access_credential  #a-content h200 {
+        font-size: 1.4rem;
+        color: #fff;
+        text-decoration: underline;
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    #access_credential  #a-content #ac-content #bio-left {
+        margin-top: 1.5%;
+        margin-left: 1.5%;
+        height: 100%;
+        width: 35%;
+        background-color: transparent;
+        border-right: 0;
+    }
+    
+    #access_credential  #a-content #ac-content #bio-left .bio-label {
+        font-size: 1.1rem;
+        color: #000;
+        font-weight: normal;
+    }
+    
+    #access_credential  #a-content #ac-content #bio-left .bio {
+        width: 95%;
+        outline: none;
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+        border-radius: 5px;
+        border: 1px solid #a9a9a9;
+        color: #000;
+        font-size: 1.2rem;
+        background-color: transparent;
+    }
+    
+    #access_credential  #a-content #ac-content #bio-left .bio::-webkit-input-placeholder {
+        font-size: 0.9rem;
+        color: #fff;
+        font-weight: normal;
+        text-align: center;
+        font-style: italic;
+    }
+    
+    #access_credential  #a-content #ac-content #bio-left .btn-ok {
+        width: 20%;
+        height: 30px;
+        margin-bottom: 4%;
+        margin-left: 75%;
+        border-radius: 15px;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        outline: none;
+        background-color: transparent;
+        border: 1.25px solid #00FF5C;
+    }
+    
+    #access_credential  #a-content #ac-content #bio-left .btn-ok:hover {
+        background-color: #00FF5C;
+    }
+    
+    #access_credential  #a-content #ac-content #cred-right {
+        height: 100%;
+    }
+    
+    #security_key {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent;  
+    }
+    
+    #security_key #title-sec-sk {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #security_key #title-sec-sk h161 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #security_key #sk-content {
+        width: 90%;
+        margin: 10%;
+        height: auto !important;
+        background-color: transparent;
+    }
+    
+    #image_profile {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent;  
+    }
+    
+    #image_profile #title-sec-imp {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #image_profile #title-sec-imp h162 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #image_profile #imp-content {
+        width: 100%;
+        float: left;
+        border-radius: 0 0 15px 0;
+        height: 92.5%;
+        background-color: transparent; 
+    }
+    
+    #room_user {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent;  
+    }
+    
+    #room_user #title-sec-ru {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #room_user #title-sec-ru h163 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #room_user #ru-content {
+        width: 100%;
+        float: left;
+        border-radius: 0 0 15px 0;
+        height: 92.5%;
+        background-color: transparent; 
+    }
+    
+    #room_user #ru-content #table-room {
+        width: 90%;
+        margin-top: 5%;
+        scroll-behavior: smooth;
+        height: 100%;
+        background-color: transparent;
+    }
+    
+    h190 {
+        font-size: 1.1rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Helvetica;
+    }
+    
+    h191 {
+        font-size: 1.1rem;
+        color: red;
+        font-weight: inherit;
+        text-decoration: underline;
+        font-style: normal;
+        font-family: Helvetica;
+    }
+    
+    h192 {
+        font-size: 1.1rem;
+        color: 	#7fff00;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Helvetica;
+    }
+    
+    h193 {
+        font-size: 1.1rem;
+        color: darkorange;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Helvetica;
+    }
+    
+    h195 {
+        font-size: 1.1rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Helvetica;
+    }
+    
+    #request_friends {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent;  
+    }
+    
+    #request_friends #title-sec-rf {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #request_friends #title-sec-rf h164 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+    }
+    
+    #request_friends #rf-content {
+        width: 100%;
+        float: left;
+        border-radius: 0 0 15px 0;
+        height: 92.5%;
+        margin-top: 2%;
+        background-color: transparent; 
+    }
+    
+    #message_alert {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent;  
+    }
+    
+    #message_alert #title-sec-ma {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #message_alert #title-sec-ma h166 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+    }
+    
+    #message_alert #ma-content {
+        width: 100%;
+        float: left;
+        border-radius: 0 0 15px 0;
+        height: 92.5%;
+        background-color: transparent; 
+    }
+    
+    #privacy {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 15px 0;
+        background-color: transparent;  
+    }
+    
+    #privacy #title-sec-p {
+        width: 100%;
+        height: 7.5%;
+        background-color: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #privacy #title-sec-p h165 {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: bold;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+    }
+    
+    #privacy #p-content {
+        width: 100%;
+        float: left;
+        border-radius: 0 0 15px 0;
+        height: 92.5%;
+        background-color: transparent; 
+    }
+}

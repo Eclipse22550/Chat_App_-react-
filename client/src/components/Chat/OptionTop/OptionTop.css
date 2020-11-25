@@ -1,0 +1,86 @@
+:root {
+    --userback: #3e51af;
+    --transparent: transparent;
+}
+
+
+#OptionTop {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#OptionTop #icon-menu {
+    width: 19.5%;
+    height: 100%;
+    float: left;
+    border-bottom: 1.5px dotted black;
+    background-color: var(--transparent);
+}
+
+#OptionTop #icon-menu .hamburger {
+    background-color: var(--transparent);
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+#OptionTop #icon-menu .hamburger .btn-menu-opt {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    background-color: var(--transparent);
+}
+
+#OptionTop #optioning-menu {
+    width: 80.5%;
+    height: 100%;
+    float: right;
+    background-color: #3e51af;
+}
+
+#OptionTop #optioning-menu #username {
+    background-color: var(--userback);
+    width: 99.99%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+#OptionTop #optioning-menu #username .settings {
+    background-color: var(--transparent);
+    border-radius: 25px;
+    position: relative;
+    float: left;
+    border: none;
+    outline: none;
+    width: 15%;
+    height: 100%;
+}
+
+.settings .sett {
+    width: 70%;
+    height: 85%;
+    align-items: center;
+    position: relative;
+}
+
+#OptionTop #optioning-menu #username .profile {
+    background-color: var(--transparent);
+    border-radius: 25px;
+    position: relative;
+    float: right;
+    outline: none;
+    margin-right: 2%;
+    border: none;
+    width: 15%;
+    height: 100%;
+}
+
+.profile .pr {
+    width: 70%;
+    height: 85%;
+    align-items: center;
+    position: relative;
+}

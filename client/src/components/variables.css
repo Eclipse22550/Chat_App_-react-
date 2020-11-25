@@ -1,0 +1,25 @@
+:root {
+	--primary: linear-gradient(to right, #00CEB1, #344698, #142996);
+	--ombra: #B22922;
+	--forget: #ffa500;
+	--invia: #2ECC71;
+	--passwordforgot: yellow;
+	--uovo: #00CEB1;
+ 	--bordinvia: #2ECC71;
+	--schead: #00FF5C;
+	--check: rgb(110,110,110);
+	--bordo: blue;
+	--text: #FFFFFF;
+	--checkbef: gray;
+	--before: rgb(50,50,50);
+	--ov: #1C1C1C;
+	--intback: transparent;
+	--head: rgb(140,140,140);
+	--input: #3498DB;
+    --internal: #6495ED;
+    --black: #000;
+	--transparent: transparent;
+	--inputr: #008b8b;
+	--white: #fff;
+	--blueed: rgb(61,110,255);
+}
